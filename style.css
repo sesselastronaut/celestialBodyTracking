@@ -1,0 +1,102 @@
+  body { 
+    background: rgb(255, 255, 0);
+    color: blue; 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font: 12pt Arial, sans-serif; 
+  }
+  
+  .selector {
+    color: blue; 
+    font-size: 6em; 
+  }
+
+  .container
+  {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .targetAzimuth {
+    display: inline-block;
+    color: blue; 
+    font-size: 6em; 
+  }
+
+  .targetElevation {
+    display: inline-block;
+    color: blue; 
+    font-size: 4em; 
+  }
+
+  .azimuth {
+    color: blue; 
+    font-size: 4em; 
+  }
+
+  .elevation {
+    color: blue; 
+    font-size: 4em; 
+  }
+
+  .earthDistance {
+    color: blue; 
+    font-size: 4em; 
+  }  
+  
+  .debug {
+    color: blue; 
+    font-size: 6em; 
+  }
+
+  .rotationrate {
+    color: blue; 
+    font-size: 4em; 
+  }
+
+  .alpha {
+    color: blue; 
+    font-size: 6em; 
+  }
+
+  .compassinfo {
+    color: blue; 
+    font-size: 4em; 
+  }
+
+  .nav {
+    margin: 10px;
+    width: 100%;
+    clear:both;
+    float:left; 
+  }
+  
+  .overlay {
+    background-color: rgb(255, 255, 0);
+    display: table;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+  }
+  .overlay p {
+    display: table-cell;
+    font-size: 4em;
+    font-weight: 300;
+    letter-spacing: 0.07em;
+    padding: 1em;
+    text-align: center;
+    text-transform: lowercase;
+    vertical-align: middle;
+  }
+  .hidden {
+    display: none;
+  }
